@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv"
+        android:textSize="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Media Files"
+        android:gravity="center"/>
+
+    <SeekBar
+        android:id="@+id/sb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"/>
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PLAY"
+        android:layout_margin="25dp"/>
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STOP"
+        android:layout_margin="25dp"/>
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAUSE"
+        android:layout_margin="25dp"/>
+
+    <Button
+        android:id="@+id/btpiano"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PIANO"
+        android:layout_margin="25dp"/>
+
+</LinearLayout>
